@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+}
+
+.main {
+    background-image: url(344404.jpg);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.formation {
+    height: 28rem;
+    width: 30rem;
+    padding: 5rem;
+    border-radius: 20rem;
+    opacity: 0.5rem;
+    background-color: rgba(135, 206, 235, 0.1);
+    box-shadow: 2px 2px 15px skyblue;
+    transition: 2s 1s;
+    transform: rotate('45');
+}
+
+h1 {
+    text-align: center;
+}
+
+.forms {
+    height: 2rem;
+    width: 20rem;
+    font-weight: 700;
+    border: 0;
+    border-radius: 0.5rem;
+    margin: 2rem 0 2rem 5rem;
+    background-color: #232323;
+    color: gray;
+    padding-left: 1.8rem;   
+    opacity: 0.8;
+    transition: 2s 1s;
+}
+
+.container i {
+    position: relative;
+    left: 5.5rem;
+    top: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+#lock {
+    position: relative;
+    left: 5.5rem;
+    top: 4.5rem;
+    display: flex;
+    align-items: center;
+}
+
+#eye {
+    position: relative;
+    left: 25rem;
+    top: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+#forget{
+   margin-left: 19rem;
+   margin-top: 0;
+   font-size: 1rem;
+
+}
+
+button {
+    height: 2rem;
+    width: 22rem;
+    border: 0;
+    border-radius: 0.5rem;
+    margin: 2rem 0 2rem 5rem;
+
+}
+#main-but {
+    font-size: 1rem;
+    
+}
+
+#dot {
+    text-align: center;
+    letter-spacing: 0.2rem;
+    font-size: 1rem;
+}
+
+.but {
+    width: 3.8rem;
+    border-radius: 0.5rem;
+    align-items: center;
+    border: 0;
+}
+
+.but img {
+    height: 1rem;
+    width: rem;
+}
+
+.but:hover {
+     width: 5rem;
+     transition: 2s;
+}
+
+.formation:hover {
+    width: 40rem;
+    height: 35rem;
+}
